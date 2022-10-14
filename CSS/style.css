@@ -1,0 +1,46 @@
+body{
+    background-image:url("explore-flight-4x3.jpg");
+}
+nav{
+    background-color:rgb(236, 228, 228);
+    text-align:center;
+    padding:5px;
+}
+.container{
+    width:70%;
+    margin:auto;
+    margin-top:10px;
+}
+.card{
+    background-color:rgb(234, 186, 186);
+    padding:20px;   
+}
+#image{
+    max-width:200px;
+    height:200px;
+    border-radius:100px;
+    margin:auto; 
+    background-color:white;
+}
+div i{
+    font-size:2em;
+    padding:15px;
+    color:black;
+    opacity:0.3;
+}
+i:hover{
+    opacity:1.0;
+}
+#info2,#info3,#info4,#info5,#info6
+{
+    display:none;
+}
+@media screen and (max-width:768px){
+    .container{
+        width:100%;
+}
+    div i{
+        font-size:20px;
+        padding:10px;
+}
+}

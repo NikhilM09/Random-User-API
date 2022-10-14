@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises in JS</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <script src="bootstrap/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/51c96d909a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <h1>Random User Generator using API</h1>
+    </nav>
+    <div class="container">
+        <div class="card text-center" style="width:100%">
+            <img class="card-img-top" id="image" src="" alt="Card image">
+            <div class="card-body">
+              <p class="card-title" id="header">Hi,My name is</p>
+              <h2 class="card-text" id="info"></h2>
+                <div class="icon">
+                    <i class="fa-sharp fa-solid fa-user" id="user" onmouseover=getInfo(name1)></i> 
+                    <i class="fa-solid fa-at" id="email" onmouseover=getInfo(email1)></i>
+                    <i class="fa-solid fa-cake-candles" id="date" onmouseover=getInfo(dob1)></i>
+                    <i class="fa-sharp fa-solid fa-location-dot" id="address" onmouseover=getInfo(address1)></i>
+                    <i class="fa-solid fa-phone" id="phone" onmouseover=getInfo(phone1)></i>
+                    <i class="fa-sharp fa-solid fa-lock" id="password" onmouseover=getInfo(password1)></i>
+                </div>
+            </div>
+          </div>
+          
+    </div>
+    <script src="js/promise.js"></script>
+</body>
+</html>
